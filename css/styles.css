@@ -156,19 +156,13 @@ a {
 .address-menu-item {
   letter-spacing: 0.02em;
   color: var(--slate);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
-.address-menu-item:hover::after,
-.address-menu-item:focus::after {
-  width: 100%;
-}
 
 .address-menu-item:hover,
 .address-menu-item:focus {
   color: var(--ocean);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section {
@@ -306,7 +300,7 @@ ul {
 }
 
 .social-icon-svg {
-  fill: var(--white);
+  fill: var(--cloud);
   margin: auto;
   display: block;
   margin-top: 12px;
@@ -494,13 +488,6 @@ ul {
   margin: 0 auto;
   width: 208px;
 
-}
-
-
-.footer-social-icon {
-  .social-icon-svg {
-    fill: var(--cloud);
-  }
 }
 
 
