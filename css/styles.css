@@ -323,17 +323,16 @@ ul {
 } 
 
 
-.team-section-item:hover {
-  .social-icon-link {
-    background-color: var(--ocean);
-  }
+.social-icon-link:hover,
+.social-icon-link:focus {
+  background-color: var(--ocean);
 }
 
 .team-section-item-socials {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 232px;
+  gap: 24px;
   margin: 0 auto;
 }
 
