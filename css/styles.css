@@ -440,7 +440,8 @@ ul {
 
 .footer-content {
   display: flex;
-  width: 800px;
+  width: 592px;
+  margin: 0 auto;
 }
 
 .footer-logo-span {
